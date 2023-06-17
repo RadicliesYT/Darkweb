@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+.imagesd1 {
+    width : 180px;
+    height : 136px;
+    border-radius: 20px;
+    position: relative;
+    left : 20px;
+}
+
+.imagesd2 {
+    width : 180px;
+    height : 136px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px ;
+}
+
+.imagesd3 {
+  width : 180px;
+  height : 136px;
+  border-radius: 20px;
+  position: relative;
+  left: 70px ;
+}
+
+.imagesd4 {
+  width : 180px;
+  height : 136px;
+  border-radius: 20px;
+  position: relative;
+  left: 90px ;
+}
+
+.imagesd6 {
+    position: relative;
+    left: 520px;
+    padding: 0px;
+}
+
+h3 {
+    color:rgb(255, 235, 235);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+  color:rgb(255, 235, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: large;
+}
+
+p {
+    color:rgb(255, 235, 235);
+    font-family: serif;
+    text-align: center;
+}
+
+.p2 {
+  color: black;
+  font-size: large;
+}
+
+.topnav {
+    background-color: #343434;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 130px;
+    padding-right: 140px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
