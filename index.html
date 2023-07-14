@@ -14,23 +14,32 @@
                 <a href="info.html">Info</a>
               </div>
               <script>
-                var pattern = ['m', 'i', 'l', 'e', 's'];
-                var current = 0;
+                var pattern1 = ['m', 'i', 'l', 'e', 's'];
+                var pattern2 = ['g', 'o', 'k', 'u'];
+                var current1 = 0;
+                var current2 = 0;
               
                 var keyHandler = function (event) {
-                  // If the key isn't in the pattern or isn't the current key in the pattern, reset
-                  if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
-                    current = 0;
-                    return;
+                  // Check pattern 1
+                  if (pattern1.indexOf(event.key) < 0 || event.key !== pattern1[current1]) {
+                    current1 = 0;
+                  } else {
+                    current1++;
+                    if (pattern1.length === current1) {
+                      current1 = 0;
+                      window.location.href = 'spiderman.html'; // Replace with the first desired webpage URL
+                    }
                   }
               
-                  // Update how much of the pattern is complete
-                  current++;
-              
-                  // If complete, redirect the user to another webpage
-                  if (pattern.length === current) {
-                    current = 0;
-                    window.location.href = 'spiderman.html'; // Replace with the desired webpage URL
+                  // Check pattern 2
+                  if (pattern2.indexOf(event.key) < 0 || event.key !== pattern2[current2]) {
+                    current2 = 0;
+                  } else {
+                    current2++;
+                    if (pattern2.length === current2) {
+                      current2 = 0;
+                      window.location.href = 'goku.html'; // Replace with the second desired webpage URL
+                    }
                   }
                 };
               
@@ -38,7 +47,7 @@
                 document.addEventListener('keydown', keyHandler, false);
               </script>
               
-            <p>welcome to <website name> here you can play games and also download sound effects this is your companion in finding the best webgames and soundeffects</p>
+ <p>welcome to <website name> here you can play games and also download sound effects this is your companion in finding the best webgames and soundeffects</p>
             <a href="https://gamesfrog.com/"><img class="imagesd1" src="images/pokemon-roms.png"></a>
             <a href="https://ananmay125.github.io/Jake-s-soundeffects.z/"> <img class="imagesd2" src="images/sound effects.png"> </a>
             <a href="https://gamesfrog.com/games/n64/super-mario-64"> <img class="imagesd3" src="images/super mario popular.png"> </a>
