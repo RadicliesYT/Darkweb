@@ -142,5 +142,29 @@ p {
   left : 160px;
 }
 
+.imagelogo {
+  width : 50px;
+  height : 45px;
+  border-radius: 20px;
+  position: relative;
+  left : 20px;
+}
+
+.imagespotify {
+  left: 350px;
+  width: 50px;
+  height : 45px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.imagealbum {
+  left: 350px;
+  width: 50px;
+  height : 45px;
+  position: relative;
+}
+
+
 
 

@@ -16,8 +16,10 @@
               <script>
                 var pattern1 = ['m', 'i', 'l', 'e', 's'];
                 var pattern2 = ['g', 'o', 'k', 'u'];
+                var pattern3 = ['j', 'a', 'k', 'e'];
                 var current1 = 0;
                 var current2 = 0;
+                var current3 = 0;
               
                 var keyHandler = function (event) {
                   // Check pattern 1
@@ -39,6 +41,16 @@
                     if (pattern2.length === current2) {
                       current2 = 0;
                       window.location.href = 'goku.html'; // Replace with the second desired webpage URL
+                    }
+                  }
+                  // Check pattern 3
+                  if (pattern3.indexOf(event.key) < 0 || event.key !== pattern3[current3]) {
+                    current3 = 0;
+                  } else {
+                    current3++;
+                    if (pattern3.length === current3) {
+                      current3 = 0;
+                      window.location.href = 'jakesoundeffects.html'; // Replace with the second desired webpage URL 
                     }
                   }
                 };
