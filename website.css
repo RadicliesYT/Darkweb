@@ -100,3 +100,11 @@ p {
   color:#ffffff;
   font-weight: bold;
   }
+
+  .imagesd9 {
+    width : 180px;
+    height : 200px;
+    border-radius: 20px;
+    position: relative;
+    left : 20px;
+}
