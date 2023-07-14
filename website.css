@@ -116,3 +116,11 @@ p {
   position: relative;
   left : 20px;
 }
+
+.imagesd11 {
+  width : 180px;
+  height : 136px;
+  border-radius: 20px;
+  position: relative;
+  left: 50px ;
+}
