@@ -136,7 +136,7 @@ p {
 .imagepro3 {
   width : 350px;
   height : 300;
-  border-radius: 20px;
+  border-radius: 0px;
   position: relative;
   left : 160px;
 }
