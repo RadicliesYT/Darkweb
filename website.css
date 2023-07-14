@@ -118,9 +118,28 @@ p {
 }
 
 .imagepro1 {
-  width : 180px;
-  height : 136px;
+  width : 350px;
+  height : 300px;
   border-radius: 20px;
   position: relative;
   left: 50px ;
 }
+
+.imagepro2 {
+  width : 180px;
+  height : 300;
+  border-radius: 20px;
+  position: relative;
+  left : 90px;
+}
+
+.imagepro3 {
+  width : 350px;
+  height : 300;
+  border-radius: 20px;
+  position: relative;
+  left : 160px;
+}
+
+
+
