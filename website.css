@@ -103,8 +103,16 @@ p {
 
   .imagesd9 {
     width : 180px;
-    height : 200px;
+    height : 1000px;
     border-radius: 20px;
     position: relative;
     left : 20px;
+}
+
+.imagesd10 {
+  width : 180px;
+  height : 1000px;
+  border-radius: 20px;
+  position: relative;
+  left : 20px;
 }
