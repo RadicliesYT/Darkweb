@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+  <head>
         <title>info</title>
         <link rel="stylesheet" href="website.css">
-        <link rel="icon" type="image/x-icon" href="images/69.png">
-    </head>
-    <body>
-<img class="imagelogo" src="images/spotify logo.png">
-<span dir="auto" class="rEN7ncpaUeSGL9z0NGQR" draggable="true" data-testid="entityTitle" aria-expanded="false"><h1 dir="auto" data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 dYGhLW" style="margin: 0.08em 0px 0.12em; visibility: visible; width: 100%; font-size: 6rem;">This Is Jake</h1></span>
-<a href="images/lastsong.ogg"><img class="imagespotify" src="images/Spotify-Play-Button.png">
-<img class="imagealbum" src="images/jake.png">
+        <link rel="icon" type="image/x-icon" href="images/69.ico">
+        <script>
+function playSong(songPath) {
+      var audio = new Audio(songPath);
+      audio.play();
+    }
+  </script>
+  </head>
+
+  <body>
+    <div class="containerimage">
+      <img src="images/jake.png">
+      <h1 class="btstext">This is Jake</h1>
+    </div>
+  </body>
+
+</html>

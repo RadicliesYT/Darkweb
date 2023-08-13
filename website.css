@@ -162,9 +162,25 @@ p {
   left: 350px;
   width: 50px;
   height : 45px;
+  border-radius: 10px;
+  position: relative;
+}
+.play-button {
+  cursor: pointer;
+  left: 350px;
+  width : 50px;
+  height : 45px;
+  border-radius: 20px;
   position: relative;
 }
 
+.btstext {
+  font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  text-align: center;
+}
 
-
-
+.containerimage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
