@@ -70,8 +70,10 @@ p {
     background-color:#1B1B1B;
     overflow: hidden;
     border-radius: 20px;
+    width: 1260px;
+    padding-right: 5px;
+    padding-top: 2px;
   }
-  
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -92,6 +94,7 @@ p {
   .topnav a.active {
     background-color: red;
     color: white;
+   
   }
   
   .button {
@@ -190,6 +193,10 @@ p {
     justify-content: center;
     position: relative;
     top: 40px;
+    float: left;
+   width: 60%;
+   padding: 0px 250px;
+   overflow: hidden;
 
 }
 
@@ -223,4 +230,20 @@ p {
   border-radius: 20px;
   position: relative;
   left: 40px ;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .sus {
+    width: 90%;
+    padding: 0;
+  }
+  .topnav {
+    background-color:#1B1B1B;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 80%;
+    padding-right: 5px;
+    padding-top: 2px;
+  }
 }
