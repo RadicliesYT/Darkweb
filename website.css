@@ -184,3 +184,43 @@ p {
   text-align: center;
   color: white;
 }
+
+.sus{
+  display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+
+}
+
+.imgsd1{
+  width : 180px;
+  height : 145px;
+  border-radius: 20px;
+  position: relative;
+  left : 10px;
+}
+
+.imgsd2{
+   width : 180px;
+    height : 145px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px ;
+}
+
+.imgsd3{
+  width : 180px;
+  height : 145px;
+  border-radius: 20px;
+  position: relative;
+  left: 30px ;
+}
+
+.imgsd4{
+  width : 180px;
+  height : 136px;
+  border-radius: 20px;
+  position: relative;
+  left: 40px ;
+}
