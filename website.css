@@ -101,8 +101,8 @@ p {
     padding: 6px 12px;
     margin: 0.5em 0;
     background:#009578;
-  color:#ffffff;
-  font-weight: bold;
+    color:#ffffff;
+    font-weight: bold;
   }
 
   .imagesd9 {
@@ -232,11 +232,17 @@ p {
   left: 40px ;
 }
 
+@media screen and (max-widht: 1920px){
+  .nav {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .sus {
     width: 90%;
-    padding: 0;
+    padding: 0px 310px;
   }
   .topnav {
     background-color:#1B1B1B;
@@ -244,6 +250,6 @@ p {
     border-radius: 20px;
     width: 80%;
     padding-right: 5px;
-    padding-top: 2px;
+    padding-top: 2px;/* ye sup. nah im talking about the index.html the class u gave the links (active)?. it wasnt for nav bar i adjusted it*/
   }
 }
