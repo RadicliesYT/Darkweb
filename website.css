@@ -224,7 +224,7 @@ p {
 }
 
 .imgsd2{
-  width : 200px;
+  width: 194px;
     height : 145px;
     border-radius: 20px;
     position: relative;
@@ -240,11 +240,11 @@ p {
 }
 
 .imgsd4{
-  width : 250px;
-  height : 136px;
   border-radius: 20px;
   position: relative;
   left: 40px ;
+  height: 150px;
+  width: 200px;
 }
 
 a.slimshady{
