@@ -190,8 +190,17 @@ p {
   text-align: center;
   color: white;
 }
-
 .sus{
+  display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    float: left;
+   width: 100%;
+   padding: 0px 0px;
+   overflow: hidden;
+}
+.emsus{
   display: flex;
     justify-content: center;
     position: relative;
