@@ -3,7 +3,7 @@ body {
 }
 
 .imagesd1 {
-    width : 180px;
+    width : 200px;
     height : 145px;
     border-radius: 20px;
     position: relative;
@@ -11,7 +11,7 @@ body {
 }
 
 .imagesd2 {
-    width : 180px;
+    width : 200px;
     height : 145px;
     border-radius: 20px;
     position: relative;
@@ -19,7 +19,7 @@ body {
 }
 
 .imagesd3 {
-  width : 180px;
+  width : 200px;
   height : 145px;
   border-radius: 20px;
   position: relative;
@@ -27,7 +27,7 @@ body {
 }
 
 .imagesd4 {
-  width : 180px;
+  width : 200px;
   height : 136px;
   border-radius: 20px;
   position: relative;
@@ -70,7 +70,7 @@ p {
     background-color:#1B1B1B;
     overflow: hidden;
     border-radius: 20px;
-    width: 1260px;
+    width: 100%;
     padding-right: 5px;
     padding-top: 2px;
   }
@@ -94,15 +94,18 @@ p {
   .topnav a.active {
     background-color: red;
     color: white;
-   
   }
   
   .button {
     padding: 6px 12px;
     margin: 0.5em 0;
     background:#009578;
-    color:#ffffff;
-    font-weight: bold;
+      color:#ffffff;
+      font-weight: bold;
+  }
+
+  nav {
+    width: 100%;
   }
 
   .imagesd9 {
@@ -194,14 +197,13 @@ p {
     position: relative;
     top: 40px;
     float: left;
-   width: 60%;
-   padding: 0px 250px;
+   width: 100%;
+   padding: 0px 0px;
    overflow: hidden;
 
 }
-
 .imgsd1{
-  width : 180px;
+  width : 200px;
   height : 145px;
   border-radius: 20px;
   position: relative;
@@ -209,7 +211,7 @@ p {
 }
 
 .imgsd2{
-   width : 180px;
+  width : 200px;
     height : 145px;
     border-radius: 20px;
     position: relative;
@@ -217,7 +219,7 @@ p {
 }
 
 .imgsd3{
-  width : 180px;
+  width : 200px;
   height : 145px;
   border-radius: 20px;
   position: relative;
@@ -225,30 +227,24 @@ p {
 }
 
 .imgsd4{
-  width : 180px;
+  width : 250px;
   height : 136px;
   border-radius: 20px;
   position: relative;
   left: 40px ;
 }
 
-@media screen and (max-widht: 1920px){
-  .nav {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .sus {
     width: 90%;
-    padding: 0px 310px;
+    padding: 0;
   }
   .topnav {
     background-color:#1B1B1B;
     overflow: hidden;
     border-radius: 20px;
-    width: 80%;
+    width: fit-content;
     padding-right: 5px;
     padding-top: 2px;/* ye sup. nah im talking about the index.html the class u gave the links (active)?. it wasnt for nav bar i adjusted it*/
   }
