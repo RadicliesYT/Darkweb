@@ -195,11 +195,15 @@ p {
   display: flex;
     justify-content: center;
     position: relative;
-    top: 40px;
     float: left;
-   width: 100%;
-   padding: 0px 0px;
-   overflow: hidden;
+    overflow: hidden;
+    top: 130px;
+    bottom: 0px;
+    right: 0px;
+    height: 146px;
+    width: 630px;
+    left: 105px;
+    padding-right: 40px;
 
 }
 .imgsd1{
@@ -232,6 +236,23 @@ p {
   border-radius: 20px;
   position: relative;
   left: 40px ;
+}
+
+a.slimshady{
+  background-color: gray;
+    color: white;
+}
+
+.mnm{
+  display: flex;
+    justify-content: left;
+    position: relative;
+    top: 40px;
+    float: left;
+   width: 60%;
+   overflow: hidden;
+   height: 390px;
+   width: 276px;
 }
 
 @media only screen and (max-width:800px) {
