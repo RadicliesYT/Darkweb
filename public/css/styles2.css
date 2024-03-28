@@ -1,0 +1,52 @@
+.form-div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+* {
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+}
+
+body{
+    background-color: skyblue;
+}
+
+input{
+    background-color: #1f1f1f;
+    padding-left: 10px;
+    border-right: 0;
+    border-radius: 5px;
+    height: 43px;
+    width: 210px;
+    color: white;
+}
+
+button {
+    width: 223px;
+    height: 40px;
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: yellow;
+    transition: border-radius 100ms;
+    border: 0;
+}
+
+button:hover{
+    border-radius: 50px;
+    background-color: dodgerblue;
+}
+
+label {
+    font-family: "Cascadia Mono", sans-serif;
+    font-size: 17px;
+}
+
+.signup-text{
+    text-decoration: none;
+    color: blue;
+}
