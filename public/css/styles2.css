@@ -50,3 +50,10 @@ label {
     text-decoration: none;
     color: blue;
 }
+
+.check-class{
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+}

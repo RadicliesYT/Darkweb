@@ -7,6 +7,16 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <link rel="icon" type="image/x-icon" href="/images/fanicon.png">
   <link rel="stylesheet" type="text/css" href="/css/styles2.css">
+  <script>
+    function sussybaka() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+  </script>
 </head>
 <body>
 <header>
@@ -34,7 +44,8 @@
       <div class="form-div">
       <label for="password">Password:</label><br>
       </div>
-      <input autocomplete="off" type="password" id="password" name="password" required><br>
+        <input autocomplete="off" type="password" id="password" name="password"  required>
+        <input class="check-class" type="checkbox" onclick="sussybaka()"><br>
       <button type="submit">Login</button>
       <div class="form-div">
       <h4>Not a user? Sign up <a class="signup-text" href="/register">here!</a></h4>
